@@ -1,0 +1,9 @@
+.parte1{
+    padding: 80px;
+}
+.border_img {
+    width: 500px;
+    height: auto;
+    border: solid 2px greenyellow;
+
+}

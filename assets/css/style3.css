@@ -1,0 +1,26 @@
+.clave {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 50px;
+    align-items: center;
+}
+
+.numeros{
+    width: 50px;
+    background: whitesmoke;
+}
+
+label {
+    font-weight: 700;
+    font-size: 20px;
+}
+#secretResult {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #333;
+    background: whitesmoke;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}

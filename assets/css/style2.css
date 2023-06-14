@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 50px;
+    align-items: center;
+}
+
+.opciones{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+}
+
+.opciones input{
+    height: 25px;
+}
+
+.stickers {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    border: 1px solid #333;
+    size-adjust:coverfit;
+    padding: 10px;
+    align-self: stretch;
+}
+
+.stickers img{
+    width: 10rem;
+    padding: 10px;
+    object-fit: cover;
+    
+}
+
+#mensaje{
+    color: black;
+    font-size: 20px;
+}
+
+#calculo{
+    width: 100px;
+    height: auto;
+    font-size: 20px;
+
+}
